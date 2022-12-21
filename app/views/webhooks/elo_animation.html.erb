@@ -1,0 +1,11 @@
+<!-- app/views/webhooks/elo_animation.html.erb -->
+<div id="elo-animation">
+  <h1>Elo difference: <%= @elo_difference %></h1>
+</div>
+
+<script>
+  $(function() {
+    // Animate the ELO difference using jQuery
+    $("#elo-animation").fadeOut(1000).fadeIn(1000);
+  });
+</script>
